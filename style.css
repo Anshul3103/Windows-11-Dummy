@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('bg.jpeg');
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    background-color: black;
+}
+.taskbar{
+    width: 100%;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    /* top: 93.5%; */
+    z-index: 110;
+    display: flex;
+    justify-content: center;
+    
+}
+.icons{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* margin: 13px 0; */
+    padding: 2px 3px;
+    margin-top: 2px;
+}
+.icons img{
+    top: 23px;
+    left: 20px;
+    margin: 12px;
+    width: 41px;
+}
+.icons2{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* margin: 13px 0; */
+    padding: 2px 3px;
+    margin-top: 2px;
+}
+.ic1{
+    display: flex;
+    flex-direction: column;
+}
+.ic1:hover{
+    border: 2px solid rgba(241, 237, 237, 0.514);
+    background-color: rgba(219, 208, 208, 0.103);
+}
+.icons2 img{
+    top: 23px;
+    left: 20px;
+    margin: 12px;
+    width: 41px;
+}
+.right{
+    position: absolute;
+    right: 0;
+    margin: 6px 0;
+    height: 83%;
+}
+.startMenu{
+    position: absolute;
+    bottom: -530px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.5s ease-in;
+}
+.startMenu img{
+    border-radius: 8px;
+}
+.window{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 41%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    /* text-align: center; */
+}
+.window span{
+    font-size: 67px;
+    top: 12%;
+}
+.window img{
+    width: 18%;
+    position: absolute;
+    /* margin: 0px 12px; */
+    right: 100%;
+
+}
+span{
+    margin-left: 13px;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+/* .span1{
+    margin-left: 13px;
+} */
